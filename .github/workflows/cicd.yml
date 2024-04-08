@@ -1,6 +1,3 @@
-        args: >
-          -Dsonar.organization=my-org
-          -Dsonar.projectKey=my-Java-web-app
-      env:
+             env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
